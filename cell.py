@@ -18,6 +18,12 @@ class Cell(object):
     def get_level_by_name(self, name):
         return [elem for elem in self.instances if elem[0]==name][0][1]
 
-   # to do
+
     def __iter__(self):
         return iter(self.get_cells())
+
+
+    def __repr__(self):
+         return str(self.instances)
+    def __str__(self):
+        return str(self.instances)
