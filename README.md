@@ -1,1 +1,1 @@
-# trialSequenceGenerator
+# README
